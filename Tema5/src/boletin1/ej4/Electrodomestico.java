@@ -29,7 +29,7 @@ public class Electrodomestico {
 	/**
 	 * Atributo del precio base del electrodoméstico
 	 */
-	private double precioBase = 100;
+	protected double precioBase = 100;
 	
 	/**
 	 * Atributo del peso del electrodoméstico
