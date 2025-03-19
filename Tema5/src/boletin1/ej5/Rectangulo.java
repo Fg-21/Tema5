@@ -58,7 +58,7 @@ public class Rectangulo extends Poligono {
 	}
 
 	/**
-	 * 
+	 * Setter del primer lado del rectangulo.
 	 * @param lado2
 	 */
 	public void setLado2(double lado2) {
