@@ -64,6 +64,12 @@ public class Rectangulo extends Poligono {
 	public void setLado2(double lado2) {
 		this.lado2 = lado2;
 	}
+
+	@Override
+	public double area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 	
 }
