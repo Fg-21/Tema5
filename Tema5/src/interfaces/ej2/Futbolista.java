@@ -70,9 +70,8 @@ public class Futbolista implements Comparable<Futbolista> {
 	 */
 	public int compareTo(Futbolista o) {
 		int res = 0;
-		if(this.nCami - o.nCami != 0) {
-			res = this.nCami - o.nCami;
-		}else {
+		res = this.nCami - o.nCami;
+		if(res == 0) {
 			res = o.nombre.compareTo(this.nombre);
 		}
 		return res;
