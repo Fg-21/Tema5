@@ -1,0 +1,137 @@
+abstract Vehiculo
+ - String marca
+ - String modelo
+ - String color
+ - String matricula
+ - String estadoVehiculo
+ - int marchaActual
+ - int velocidadActual
+ --------------------------
+ + getMarca()
+ + getModelo()
+ + getColor()
+ + getMatricula()
+ + getEstado()
+ + getMarcha()
+ + getVelocidad()
+ 
+ + setColor()
+ + setVelocidad()
+ 
+ + void comEstado()
+ + abstract boolean apagar()
+ + abstract boolean arrancar()
+ + abstract boolean subeMarcha()
+ + abstract boolean bajaMarcha()
+ 
+--------------------------
+--------------------------
+
+Turismo extends Vehiculo
+ - int plazas
+ - String tipoUso
+ --------------------------
+ HEREDA:
+ - String marca
+ - String modelo
+ - String color
+ - String matricula
+ - String estadoVehiculo
+ - int marchaActual
+ - int velocidadActual
+ --------------------------
+ + getPlazas()
+ + getTipoUso()
+ --------------------------
+ HEREDA:
+ + getMarca()
+ + getModelo()
+ + getColor()
+ + getMatricula()
+ + getEstado()
+ + getMarcha()
+ + getVelocidad()
+ 
+  + setColor()
+  + setVelocidad()
+  
+ + void comEstado() 
+ + boolean apagar()
+ + boolean arrancar()
+ + boolean subeMarcha()
+ + boolean bajaMarcha()
+  
+ --------------------------
+ --------------------------
+  
+ Camion extends Vehiculo
+ - double pesoMax
+ - boolean mercaPeligro
+ --------------------------
+ HEREDA:
+ - String marca
+ - String modelo
+ - String color
+ - String matricula
+ - String estadoVehiculo
+ - int marchaActual
+ - int velocidadActual
+ --------------------------
+ + getPesoMax()
+ + getMercaPeligro()
+ 
+ + setMercaPeligro()
+ --------------------------
+ HEREDA:
+ + getMarca()
+ + getModelo()
+ + getColor()
+ + getMatricula()
+ + getEstado()
+ + getMarcha()
+ + getVelocidad()
+ 
+ + setColor()
+ + setVelocidad()
+  
+ + void comEstado() 
+ + boolean apagar()
+ + boolean arrancar()
+ + boolean subeMarcha()
+ + boolean bajaMarcha()  
+
+ --------------------------
+ --------------------------
+ 
+Motocicleta extends Vehiculo
+ - int cilindrada
+ --------------------------
+ HEREDA:
+ - String marca
+ - String modelo
+ - String color
+ - String matricula
+ - String estadoVehiculo
+ - int marchaActual
+ - int velocidadActual
+ --------------------------
+ + getCilindrada
+ + boolean requiereCarnet()
+  --------------------------
+ HEREDA:
+ + getMarca()
+ + getModelo()
+ + getColor()
+ + getMatricula()
+ + getEstado()
+ + getMarcha()
+ + getVelocidad()
+ 
+ + setColor()
+ + setVelocidad()
+ 
+ + void comEstado()
+ + boolean apagar()
+ + boolean arrancar()
+ + boolean subeMarcha()
+ + boolean bajaMarcha()  
